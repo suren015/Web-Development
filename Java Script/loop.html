@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loop</title>
+</head>
+<body>
+    <h1>Namaste World..!!</h1>
+
+    <script>
+
+        // Check this in console.....!!!!!!
+
+        // for loop 
+        for(let i=0;i<10;i+=1){
+            console.log(i);
+        }
+
+
+        // while loop
+        let i = 0;
+        while(i<20){
+            console.log("Namaste World");
+            i++;
+        }
+
+        // do while loop
+        i = 10;
+        do{
+            console.log("JS");
+            i--;
+        }
+        while(i>0)
+
+        // for ....in
+        //objects
+
+        let animal = {
+            name:  "Zebra",
+            leg:4
+        }
+        console.log(animal.name);
+        console.log(animal.leg);
+
+        for(let key in animal){
+            console.log(key, animal[key]);
+        }
+
+
+
+        //Array
+        //with indexing
+        let names = ["Rahul", "Neha", "Suren"];
+        for(let key in name){
+            console.log(key,name[key]);
+
+        }
+
+        //without indexing
+        for(let name of names){
+            console.log(name);
+        }
+        
+    </script>
+</body>
+</html>
