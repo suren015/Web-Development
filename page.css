@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: serif;
+    margin: 15px 30px;
+    font-size: 19px;
+    padding: 5px 20px 15px 20px;
+    background: url("img/img5.jpg") no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    align-items: center;
+    
+}   
+.heading{
+    text-align: center;
+    font-size: 50px;
+}
+.box{
+    background-color: #edebeb;
+    padding: 5px 20px 15px 20px;
+    height: 110vh;
+    background: transparent;
+    border: 2px solid #01182e;
+    border-radius: 20px;
+    backdrop-filter: blur(45px);
+    margin-top: 150px;
+    
+}
+.searchbox {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: 2px solid #01182e;
+    border-radius: 20px;
+}
+.searchbox button {
+    width: 20%;
+    padding: 8px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: #4daea1;
+    color: white;
+    font-size: 20px;
+    border: 2px solid #01182e;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.searchbox button:hover {
+    background-color: #4caf84;
+}
+.Request{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.reqhead {
+    width: 100%;
+    padding: 0px;
+    margin-top: 100px;
+    font-size: 19px;
+}
+.Request button{
+    width: 20%;
+    padding: 8px;
+    margin-top: 0px;
+    margin-left: 10px;
+    background-color: #4daea1;
+    color: white;
+    font-size: 20px;
+    border: 2px solid #01182e;
+    border-radius: 20px;
+    cursor: pointer;
+    overflow: hidden;
+    
+}
+.Request button:hover {
+        background-color: #4caf84;
+        text-decoration: underline;
+}
+
+

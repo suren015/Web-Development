@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css" type="text/css">
+    <title>Document</title>
+    
+</head>
+<body>
+
+                           
+                   
+    <div class="section">
+        <header>
+            <div class="logo">
+                
+                <nav class="navigation">
+                    <ul>
+                        <img src="img/img21.png" width="170" height="60" alt="align box" ALIGN="CENTER" style="float:left">
+                        <li><a href="#">Help</a></li>
+                        <li><a href="index2.html">SignUp</a></li>
+                        <li><a href="index1.html">Login</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="index3.html">Home</a></li>
+                        
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+
+        
+       
+        <!-- ------------------------------------------------------------------------- -->
+        
+        <div class="login-box">
+            <form action="">
+                
+                <h2>Enter Login Details</h2>
+
+
+                <!-- ------------------------------------------------------------------------- -->
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="mail"></ion-icon>
+                    </span>
+                    <input type="email" placeholder="Your Email" style="border:1px solid #000000; border-radius: 5px" required>
+                </div>
+                <!-- ------------------------------------------------------------------------- -->
+
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="lock-closed"></ion-icon>
+                    </span>
+                    <input type="password" placeholder="Your Password" style="border:1px solid #000000; border-radius: 5px" required>
+                </div>
+                <!-- ------------------------------------------------------------------------- -->
+
+                <div class="input-box"> 
+                    <select name="LoginType" onchange="mewhat(this.value);" id="LoginType" class="LoginType" style="border:1px solid #000000; border-radius: 5px"  required>
+                      <option value="">--Select User Type--</option>
+                      <option value="1">Owner</option>
+                      <option value="2">Tenant</option>
+                    </select>
+                  </div>
+
+                <!-- ------------------------------------------------------------------------- -->
+                
+
+                <div class="remember-forget">
+                    <label><input type="checkbox">Remember me</label>
+                    <a href="#">Forget Password?</a>
+                </div>
+                <!-- ------------------------------------------------------------------------- -->
+
+                <button type="Submit" class="btn">Login</button>
+                <!-- ------------------------------------------------------------------------- -->
+
+                <div class="login-register">
+                    <p>Don't have an account? <a href="index2.html" class="register-link">Register</a></p>
+                </div>
+                <!-- ------------------------------------------------------------------------- -->
+
+                
+
+            </form>
+        </div>
+    
+    </div>
+
+    <div class="footer">
+		<div class="footerBox">
+			<div class="footerMenu">Copyright &copy; RentCafe Housing Society(India) Pvt Ltd. All rights reserved.</div>
+			<!-- <p><a href="https://twitter.com/"> <img src="images/twitter.png" alt="twitter" /> </a> &nbsp;<a href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook" /></a>&nbsp;<a href="https://www.rss.com/"><img src="images/rss.png" alt="rss"/></a></div> -->
+		</div>
+	</div>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+</body>
+</html>

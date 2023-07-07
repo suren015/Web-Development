@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document_2</title>
+</head>
+<body>
+    <h1>Welcome to Document_2</h1>
+    <hr>
+
+
+ <!----------------------------------------------------------------------------------------------------------------------------->  
+    <!--Hyper Link Connection-->
+ 
+    <!--(1) File in same folder:) URL: "filename"-->
+    <!--(2) File in another folder:) URL: "foldername/filename"-->     <!--Basically for navigations-->
+    <!--(3) Moving out to folder:) URL: "../filename"-->
+
+    <a href="http://www.google.com" target="_blank">Google</a>  <!--Without target if u click on google in ur document then u can open that site in same window else u can open that in new window-->
+     
+    <br>
+    <a href="type1.html" target="_blank">Home</a>   <!-- URL of File in same folder.... Home is a text for that URL-->
+
+    <br>
+    <a href="First_website.html" target="_blank">Another Folder</a>
+
+    <br>
+    <a href="Notes/IIT2021097_DBMS_5.pdf" target="_blank">DBMS Ass_5</a>
+
+    <br>
+    <a href="Notes/HTML CheatSheet.pdf" target="_blank"> HTML CheatSheet</a>
+
+
+ <!----------------------------------------------------------------------------------------------------------------------------->
+    <!-- Image Formation -->
+
+    <hr>
+    <h2>Images</h2>
+    <img src="img/suren.jpg" alt="This is an image" width="150" >       <!--src: image URL location,  alt: alternative text when file url or name is wrong -->
+
+    <br>
+    <img src="img/webD.jpg" alt="This is an image">
+
+
+ <!----------------------------------------------------------------------------------------------------------------------------->
+    <!-- Video Formation -->
+
+    <hr>
+    <h2>Videos</h2>
+    <video src="vdo/1. Introduction to CSS.mp4" width="400" controls loop muted poster="img/webD.jpg"></video>   <!--control for video controlling without it we can't run our video, also we use "autoplay" but due to this we can't stop our video......loop is for video loop that is after completing video, video also run from start continuing........and muted means video run without audio......poster is for thumbnail-->
+
+
+ <!----------------------------------------------------------------------------------------------------------------------------->
+    <!--iframe Element means other website can display in our website, also known as embedding-->
+
+    <iframe width="400" 
+    height="265" src="https://www.youtube.com/embed/2QR11oDukn4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>   
+
+    <hr>
+    <h2>Other website "Apnikaksha"</h2>
+    <iframe src="http://www.apnikaksha.net" frameborder="250" width="1000" height="500"></iframe>
+
+ <!----------------------------------------------------------------------------------------------------------------------------->
+ <!--Table Elements-->
+
+    <hr>
+    <h2>Data of Class Students</h2>
+    <table>
+        <thead>
+            <tr>                       <!--tr for inserting in every row-->
+                <th>Subject</th>       <!--th for heading in thead-->
+                <th>Theory</th>
+                <th>Practical</th>
+                <th>Total Marks</th>
+                <th>Grades</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>                             <!--tr for inserting in every row-->
+                <td><b>English</b></td>      <!--td for data in tbody-->
+                <td>77</td>
+                <td>85</td>
+                <td>162</td>
+                <td>8.1</td>
+            </tr>
+            <tr>
+                <td><b>Hindi</b></td>
+                <td>72</td>
+                <td>84</td>
+                <td>156</td>
+                <td>7.9</td>
+            </tr>
+            <tr>
+                <td><b>Maths</b></td>
+                <td>100</td>
+                <td>100</td>
+                <td>200</td>
+                <td>10.0</td>
+            </tr>
+            <tr>
+                <td><b>Physics</b></td>
+                <td>95</td>
+                <td>85</td>
+                <td>180</td>
+                <td>9.0</td>
+            </tr>
+            <tr>
+                <td><b>Chemistry</b></td>
+                <td>85</td>
+                <td>75</td>
+                <td>160</td>
+                <td>8.0</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th colspan="5">Result Pass</th>      <!--colspan means for mixing columns, here 5 is how many columns mix-->
+        </tfoot>
+    </table>
+
+</body>
+</html>

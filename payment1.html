@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="type3_paymentForm.css">
+</head>
+<body>
+    <div class="container">
+    <form action="">
+        <h1 class="main_heading">Project Request Form</h1>
+
+        <!--------------------Contact Information---------------------->
+        
+        <hr>
+
+        <p>Requires Fields are followed by *</p>
+
+        <p>Project Title: * <input type="text" name="name" placeholder="Enter Project Title" required></p>   <!--input type for taking input from user-->
+                                                                <!--required type means that input is compulsory to fill-->
+        
+        <p>Project Owner: * <input type="text" name="name" placeholder="Enter Project Owner Name" required></p>     
+        
+        <p>Project Owner's Email: * <input type="email" name="email" id="email" placeholder="xyz@gmail.com"required></p>     <!--input:email for email text-->
+        <!-- <fieldset>            Fieldset is for grouping -->
+            <!-- <legend>Gender: * </legend>     Name that group-->
+            <!-- <p>                                              
+                Male <input type="radio" name="gender" id="male" required>
+                Female <input type="radio" name="gender" id="female" required>
+            </p> -->
+        <!-- </fieldset> --> 
+
+        <p>Project Description: <textarea name="address" id="address" cols="100" rows="20" placeholder="Write description about Project"></textarea></p>    <!--textarea for large comments -->
+
+        <p>Keywords: * <input type="text" name="name" placeholder="Enter Keywords" required></p>
+       
+
+        <!-- <p>Pincode: * <input type="number" name="pincode" id="pincode" placeholder="123456" required></p>   input:num for numbers text -->
+
+        <!--------------------Payment Information---------------------->
+        <!-- <h2>Payment Information</h2>
+        <hr>
+
+        <p>Card Type: *           Multiple cards, use select (drop down)-->
+            <!-- <select name="card_type" id="card_type" required>
+                <option value="">--Select a Card Type</option>  selected card will store in this after selection so always be empty-->
+                <!-- <option value="visa">Visa</option>
+                <option value="masterCard">MasterCard</option>
+                <option value="rupay">Rupay</option> -->
+            <!-- </select>
+        </p> --> 
+
+        <!-- <p>Card Number: * <input type="number" name="card_number" id="card_number" placeholder="xxxx-xxxx-xxxx"required></p>
+
+        <p>Expiration Date: * <input type="date" name="exp_date" id="exp_date" required></p>
+
+        <p>CVV: * <input type="password" name="cvv" id="cvv" required></p>    use input:password for hidden characters --> 
+
+        <input type="submit" value="Submit">
+    </form>
+    </div>
+
+
+
+</body>
+</html>

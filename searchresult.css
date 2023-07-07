@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: serif;
+    margin: 15px 30px;
+    font-size: 19px;
+    padding: 5px 20px 15px 20px;
+    background: url("img/img5.jpg") no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    
+}   
+.heading{
+    text-align: center;
+    font-size: 50px;
+    margin-top: -10px;
+}
+.box{
+    background-color: #edebeb;
+    padding: 5px 20px 15px 20px;
+    height: 110vh;
+    background: transparent;
+    border: 2px solid #01182e;
+    border-radius: 20px;
+    backdrop-filter: blur(45px);
+    
+}
+

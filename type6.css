@@ -1,0 +1,69 @@
+ h1{
+    color: cadetblue;
+}
+h2{
+    color: burlywood;
+}
+p,a{
+    color: rgb(17, 184, 11);
+}
+li{
+    list-style-type: square;
+    color: gold; 
+}
+
+/* class Selector */
+
+span.special,li.special{
+    color: aquamarine;
+    font-weight: 600;
+}
+
+/* list me em ke andr waale ko chang krna */
+
+li em{
+    color: rebeccapurple;
+}
+
+/* h2 ke just baad aane waale p ko change krna */
+
+h2+p{
+    font-size: x-large;
+}
+
+/* Pseudo Class */
+
+a:hover{
+    color: saddlebrown;
+    text-decoration: double;
+}
+
+
+body h2+p .special{
+    color: brown;
+    text-align: left;
+    text-shadow: 0cm;
+    background-color: black;
+    padding: 5px ;
+}
+
+/* Id Selector */
+
+#Heading{
+    color: purple;
+    text-decoration-style: wavy;
+}
+
+/* Attribute Selector */
+li[class]{
+    font-size: 500%;
+}
+li[class="a"]{
+    color: chartreuse;
+}
+
+/* Everything selector */
+
+*{
+    color: crimson;
+}
